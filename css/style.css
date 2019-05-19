@@ -5,13 +5,19 @@
     min-height: 100vh;
 }
 
-.table,
-td,
-th {
-    border: 1px solid grey;
+.table {
+    table-layout: auto;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.table td, 
+.table th {
+    border: 1px solid grey;
+    height: 70px;
     vertical-align: middle;
-    height: 69px;
 }
 
 .first-column {
@@ -21,3 +27,5 @@ th {
 .other-column {
     width: 277px;
 }
+
+
