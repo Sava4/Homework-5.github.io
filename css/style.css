@@ -1,0 +1,23 @@
+.container {
+    font-family: 'Arimo', Courier, sans-serif;
+    font-size: 16px;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.table,
+td,
+th {
+    border: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
+    height: 69px;
+}
+
+.first-column {
+    width: 310px;
+}
+
+.other-column {
+    width: 277px;
+}
