@@ -1,6 +1,7 @@
 .container {
     font-family: 'Arimo', Courier, sans-serif;
     font-size: 16px;
+    color: rgba(72,72,72,255);
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -13,11 +14,15 @@
     text-transform: uppercase;
 }
 
-.table td, 
+.table td,
 .table th {
     border: 1px solid grey;
     height: 70px;
     vertical-align: middle;
+}
+
+.table > tbody tr:nth-child(even) {
+    background-color: #e3e3e3;
 }
 
 .first-column {
@@ -28,4 +33,36 @@
     width: 277px;
 }
 
+.standard {
+    background-color: #89c331;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.ultimate {
+    background-color: #f04a56;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.premium {
+    background-color: #20807c;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.accent-numbers {
+    font-size: 60px;
+    font-weight: bold;
+    height: 86px;
+    text-align: right;
+    color: rgba(72,72,72,255);
+}
+
+.top {
+    vertical-align: text-top;
+    display: inline-block;
+}
